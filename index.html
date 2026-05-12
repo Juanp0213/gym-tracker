@@ -151,9 +151,10 @@ select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.o
         <label>movimiento</label>
         <select id="ej-ejercicio" onchange="updateTarget()">
           <option>Press de banca</option>
+          <option>Pullups</option>
           <option>Sentadilla</option>
           <option>Peso muerto</option>
-          <option>Pullups</option>
+          <option>RDL</option>
           <option>Remo</option>
           <option>Búlgaras</option>
           <option>Otro</option>
@@ -223,9 +224,10 @@ const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwozjwoE0WgWSEEDdn5b
 
 const RANGES = {
   'Press de banca': {min:6, max:8, series:4},
+  'Pullups':        {min:5, max:8, series:4},
   'Sentadilla':     {min:4, max:6, series:4},
   'Peso muerto':    {min:4, max:6, series:4},
-  'Pullups':        {min:5, max:8, series:4},
+  'RDL':            {min:8, max:12, series:3},
   'Remo':           {min:8, max:12, series:3},
   'Búlgaras':       {min:8, max:12, series:3},
   'Otro':           {min:8, max:12, series:3}
